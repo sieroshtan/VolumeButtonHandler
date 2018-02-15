@@ -54,7 +54,6 @@ final class VolumeButtonHandler: NSObject {
     }
 
     func start() {
-        self.setupSession()
         self.perform(#selector(setupSession), with: nil, afterDelay: 1)
     }
 
